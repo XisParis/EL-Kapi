@@ -1,26 +1,26 @@
-def mail_input(text='', errortext='Type a valid Mail!', nolen='Error: Field\'s empty\'s', time=0, broken=False, domains=["gmail.com", "yahoo.com", "hotmail.com", "outlook.com", "icloud.com", "protonmail.com", "mail.com", "aol.com", "zoho.com", "gmx.com"]
+def mail_input(text='', errortext='', nolen='', time=0, broken=False, domains=["gmail.com", "yahoo.com", "hotmail.com", "outlook.com", "icloud.com", "protonmail.com", "mail.com", "aol.com", "zoho.com", "gmx.com"]
 ):
     while True:
         try:
             received = str(input(text)).strip()
             if len(received) == 0:
-                print(nolen)
+                print(nolen, end='' if len(nolen) < 1 else '\n')
                 wait(time)
                 continue
             if '@' not in received:
-                print(errortext)
+                print(errortext, end='' if len(errortext) < 1 else '\n')
                 wait(time)
                 continue
 
             emailtxt = received.split('@')[-2]
             if len(emailtxt) < 1:
-                print(errortext)
+                print(errortext, end='' if len(errortext) < 1 else '\n')
                 continue
             break
         except KeyboardInterrupt:
             exit()
         except:
-            print(errortext)
+            print(errortext, end='' if len(errortext) < 1 else '\n')
             continue
         if broken == True:
             print()

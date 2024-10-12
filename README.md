@@ -1,6 +1,6 @@
 # PythonZ - Minha vida
 
-[img](https://www.unite.ai/wp-content/uploads/2022/04/AI-Python-Libraries-1000x600.png)
+![py](https://github.com/user-attachments/assets/87bfda2e-a34d-4ce0-95a3-c50c5412150d)
 
 ## 🚀 Sobre
 

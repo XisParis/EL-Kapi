@@ -1,4 +1,4 @@
-# PythonZ - Minha vida
+# Python 3.9.7 - Self
 
 ![py](https://github.com/user-attachments/assets/87bfda2e-a34d-4ce0-95a3-c50c5412150d)
 

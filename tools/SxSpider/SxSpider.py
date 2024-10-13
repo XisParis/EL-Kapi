@@ -73,9 +73,7 @@ repetidos = []
 for x in soup.find_all('a'):
     link = x['href']
     if domain in link:
-        if link in repetidos:
-            pass
-        else:
+        if link not in repetidos:
             filter_url(link)
             save_a_link(link)
             if link not in repetidos:
@@ -83,9 +81,7 @@ for x in soup.find_all('a'):
     else:
         direto = link.split('/')[0]
         formado = protocoloHTTP+'://'+domain+'/'+direto
-        if formado in repetidos:
-            pass
-        else:
+        if formado not in repetidos:
             filter_url(formado)
             save_a_link(formado)
             if formado not in repetidos:

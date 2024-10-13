@@ -51,7 +51,7 @@ if url.endswith('/'):
     url = url[0:len(url)-1] # Remove '/' 
 
 domain = url.split('://')[1]
-protocoloHTTP = url.split('://')[0] # Not in use
+protocoloHTTP = url.split('://')[0] # Pega o protocolo da url
 
 print(f'[ {F.MAGENTA}#{F.RESET} ] Searching... [ TARGET: {F.YELLOW+domain+F.RESET} ]\n')
 

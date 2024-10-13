@@ -60,12 +60,12 @@ headers = {
 }
 
 try:
-    re = requests.get(url, headers=headers)
+    req = requests.get(url, headers=headers)
 except requests.exceptions.ConnectionError:
     print(F.RED+'Invalid Website')
     exit()
 
-soup = bs4(re.text, 'html.parser')
+soup = bs4(req.text, 'html.parser')
  
 make_file('Links.txt')
 

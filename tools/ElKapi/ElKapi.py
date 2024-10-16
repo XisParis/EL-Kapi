@@ -65,7 +65,7 @@ characters = int(characters)
 
 for x in range(0, characters):
     choiced = choice(itens)
-    if choice not in passw:
+    if choiced not in passw:
         passw.append(choiced)
     else:
         continue # Back to loop

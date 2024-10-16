@@ -56,10 +56,10 @@ def banner():
 passw = []
 
 banner()
-characters = input(F.CYAN+f'[ {F.LIGHT_MAGENTA}!{F.CYAN} ]{F.RESET} Digite a quantidade de caracteres (Padrão: {F.CYAN}50{F.RESET})\n{F.LIGHT_MAGENTA}=>{F.RESET} ').strip()
+characters = input(F.CYAN+f'[ {F.LIGHT_MAGENTA}!{F.CYAN} ]{F.RESET} Digite a quantidade de caracteres (Padrão: {F.CYAN}20{F.RESET} Max: {F.CYAN}93{F.RESET})\n{F.LIGHT_MAGENTA}=>{F.RESET} ').strip()
 
 if len(characters) == 0:
-    characters = 50
+    characters = 20
 
 characters = int(characters)
 

@@ -66,8 +66,7 @@ if characters <= 0:
     characters = 20
 
 if characters > 93:
-    input(f'\nEnter to exit')
-    exit()
+    characters = 93
 
 for x in range(0, characters):
     while True:

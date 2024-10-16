@@ -58,10 +58,12 @@ passw = []
 banner()
 characters = input(F.CYAN+f'[ {F.LIGHT_MAGENTA}!{F.CYAN} ]{F.RESET} Digite a quantidade de caracteres (Padrão: {F.CYAN}20{F.RESET} Max: {F.CYAN}93{F.RESET})\n{F.LIGHT_MAGENTA}=>{F.RESET} ').strip()
 
-if len(characters) == 0:
+if len(characters) < 1:
     characters = 20
 
 characters = int(characters)
+if characters <= 0:
+    characters = 20
 
 if characters > 93:
     input(f'\nEnter to exit')

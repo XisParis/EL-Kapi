@@ -63,12 +63,18 @@ if len(characters) == 0:
 
 characters = int(characters)
 
+if characters > 93:
+    input(f'\nEnter to exit')
+    exit()
+
 for x in range(0, characters):
-    choiced = choice(itens)
-    if choiced not in passw:
-        passw.append(choiced)
-    else:
-        continue # Back to loop
+    while True:
+        choiced = choice(itens)
+        if choiced not in passw:
+            passw.append(choiced)
+            break
+        else:
+            continue # Back to loop
 
 password = ''.join(x for x in passw) # Get The Password
 

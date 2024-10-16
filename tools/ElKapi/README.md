@@ -26,3 +26,4 @@ El Kapi is a powerful and efficient tool for generating extremely strong and unb
 - **Intuitive Interface:** Simple and easy to use, ideal for all users.
 - **High Security:** Passwords with high resistance to attacks, ensuring the protection of your data.
 
+![image](https://github.com/user-attachments/assets/030e2f4a-f21c-413f-b4fa-2509ba489855)

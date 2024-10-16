@@ -11,6 +11,7 @@ class F:
     LIGHT_MAGENTA = '\033[1;95m'
 
 itens = [
+    '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
     'a', 'A', 'b', 'B', 'c', 'C', 'd', 'D', 'e', 'E', 'f', 'F',
     'g', 'G', 'h', 'H', 'i', 'I', 'j', 'J', 'k', 'K', 'l', 'L',
     'm', 'M', 'n', 'N', 'o', 'O', 'p', 'P', 'q', 'Q', 'r', 'R',
@@ -55,7 +56,7 @@ def banner():
 passw = []
 
 banner()
-characters = input(F.CYAN+f'[ {F.LIGHT_MAGENTA}!{F.CYAN} ]{F.RESET} Digite a quantidade de caracteres (Padrão: {F.CYAN}50{F.RESET})\n{F.LIGHT_MAGENTA}=>{F.RESET} ').strip()
+characters = input(F.CYAN + f'[ {F.LIGHT_MAGENTA}!{F.CYAN} ]{F.RESET} Enter the number of characters (Default: {F.CYAN}50{F.RESET})\n{F.LIGHT_MAGENTA}=>{F.RESET} ').strip()
 
 if len(characters) == 0:
     characters = 50
@@ -71,14 +72,14 @@ for x in range(0, characters):
 
 password = ''.join(x for x in passw) # Get The Password
 
-print(F.CYAN+f'\n[ {F.GREEN}✓{F.CYAN} ]{F.RESET} Password Gerado: '+password)
+print(F.CYAN+f'\n[ {F.GREEN}✓{F.CYAN} ]{F.RESET} Generated Password: '+password)
 
 while True:
-    uname = str(input(F.CYAN+f'\n[ {F.LIGHT_MAGENTA}!{F.CYAN} ]{F.RESET} Digite a um nome para a senha (Lembre-se: {F.CYAN}o Nome será usado pra identificar a senha futuramente{F.RESET}):\n{F.LIGHT_MAGENTA}=>{F.RESET} ').strip().lower())
+    uname = str(input(F.CYAN + f'\n[ {F.LIGHT_MAGENTA}!{F.CYAN} ]{F.RESET} Enter a name for the password (Remember: {F.CYAN}the name will be used to identify the password in the future{F.RESET}):\n{F.LIGHT_MAGENTA}=>{F.RESET} ').strip().lower())
     if len(uname) < 3:
         continue
     break
 
 file = make_file(uname+' : '+password+'\n')
 
-input(F.CYAN+f'\n[ {F.GREEN}✓{F.CYAN} ]{F.RESET} Senha salva com sucesso: {F.GREEN}{file}{F.RESET} \n\nEnter to exit').strip().lower().replace(' ', '')
+input(F.CYAN + f'\n[ {F.GREEN}✓{F.CYAN} ]{F.RESET} Password saved successfully: {F.GREEN}{file}{F.RESET} \n\nPress Enter to exit').strip().lower().replace(' ', '')

@@ -39,6 +39,7 @@ El Kapi is a powerful and efficient tool for generating extremely strong and unb
 
 Download Command (LINUX && WINDOWS):  
 ```curl -o ElKapi.py https://raw.githubusercontent.com/imhellguy/Python3/refs/heads/main/tools/ElKapi/ElKapi.py```
+
 Run Command: ```python3 ElKapi.py```
 
 

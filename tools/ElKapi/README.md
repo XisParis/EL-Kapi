@@ -12,7 +12,8 @@ El Kapi é uma ferramenta poderosa e eficiente para gerar senhas extremamente fo
 - **Interface Intuitiva:** Simples e fácil de usar, ideal para todos os usuários.
 - **Alta Segurança:** Senhas com alta resistência a ataques, garantindo a proteção dos seus dados.
 
-Download Command: ```curl -o ElKapiPT-BR.py https://raw.githubusercontent.com/imhellguy/Python3/refs/heads/main/tools/ElKapi/ElKapiPT-BR.py```
+ Comando para baixar (LINUX && WINDOWS): 
+```curl -o ElKapiPT-BR.py https://raw.githubusercontent.com/imhellguy/Python3/refs/heads/main/tools/ElKapi/ElKapiPT-BR.py```
 
 English Version:
 ![image](https://github.com/user-attachments/assets/030e2f4a-f21c-413f-b4fa-2509ba489855)
@@ -30,7 +31,8 @@ El Kapi is a powerful and efficient tool for generating extremely strong and unb
 - **High Security:** Passwords with high resistance to attacks, ensuring the protection of your data.
 
 
-Download Command: ```curl -o ElKapi.py https://raw.githubusercontent.com/imhellguy/Python3/refs/heads/main/tools/ElKapi/ElKapi.py```
+Download Command (LINUX && WINDOWS):  
+```curl -o ElKapi.py https://raw.githubusercontent.com/imhellguy/Python3/refs/heads/main/tools/ElKapi/ElKapi.py```
 
 
 

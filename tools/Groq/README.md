@@ -50,6 +50,7 @@ A resposta ja foi gerada, com base no que o usuario perguntou, então iremos pri
 resposta = ''
 for chunk in completion:
     resposta += chunk.choices[0].delta.content or ""
+print(resposta)
 ```
 
 Já temos a resposta armazenada na variavel "resposta", agora faça o que quiser com ela.

@@ -1,3 +1,6 @@
+
+![groq](https://github.com/user-attachments/assets/230d6683-389f-4e4d-91eb-c43100e031ca)
+
 # Código Base do GROQ
 
 Este módulo implementa a biblioteca fundamental para um uso de Inteligência Artificial (IA) utilizando o cliente Groq. A Biblioteca facilita interações com funcionalidades de IA, permitindo que desenvolvedores integrem modelos de aprendizado de máquina e recursos orientados por IA em suas aplicações.

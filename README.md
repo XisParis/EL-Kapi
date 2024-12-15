@@ -1,6 +1,6 @@
 # Python 3.9.7 - MySelf
 
-[py](https://thehackernews.com/2022/03/improve-your-hacking-skills-with-9.html)
+[PY](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyOuK9CX5XDGO7UKWIGRk_judg6tbKrhKpuYBoP3B-ZzDd_aJsGhzALRumZP4rdgyGs4JhhnufXa5ydQUWnofN0jQibAChdT77tWgT1Mg3Sl68RL0g_c84gPCV-3iTPWiyWNgKR7GROY368n9gTCZElDesdqEMRTxWfC-0E5i-CUMDwle4q8OcWcGY/s728-rw-e365/python.jpg)
 
 ## 🚀 Sobre
 

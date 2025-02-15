@@ -1,21 +1,45 @@
-# 🔒 EL Kapi: Ferramenta Profissional de Geração de Senha
+![image](https://github.com/user-attachments/assets/471c0a75-e758-48f7-b0ae-373fb7b6381a)
 
-**Desenvolvido em Python 3**
+### El Kapi: Gerador de Senhas Fortes 🔒✨
 
-## Funcionalidades:
+El Kapi é uma ferramenta poderosa e eficiente para gerar senhas extremamente fortes e inquebráveis. 💪💻
 
-- **Senhas Únicas**: Gera senhas aleatórias que são exclusivas e difíceis de serem replicadas, garantindo que cada senha seja única para cada uso.
-- **Imunidade a Brute Force**: As senhas geradas são projetadas para resistir a ataques de força bruta tradicionais, tornando-as praticamente impossíveis de serem quebradas com métodos convencionais.
-- **Senhas Imunes a Wordlists**: Ao contrário das senhas comuns, as senhas geradas não são encontradas em nenhuma wordlist pública ou privada, garantindo uma camada adicional de segurança.
-- **Fácil de Usar**: Interface intuitiva e simples de integrar para desenvolvedores e usuários em busca de segurança extra.
+### Recursos Principais 🌟
 
-## Por que escolher essa ferramenta?
+- **Geração Aleatória de Senhas:** Cria senhas únicas que nunca serão encontrada em wordlists privadas/públicas.
+- **Combinações Diversificadas:** Inclui letras maiúsculas, minúsculas, números e caracteres especiais.
+- **Personalização:** Ajuste o comprimento da senha conforme suas necessidades.
+- **Interface Intuitiva:** Simples e fácil de usar, ideal para todos os usuários.
+- **Alta Segurança:** Senhas armazenadas direto no seu dispositivo, totalmente fora de servidores externos.
 
-- **Segurança de Nível Profissional**: Com um algoritmo de geração de senhas avançado, as senhas criadas são não apenas únicas, mas também projetadas para resistir a todos os tipos de ataques.
-- **Privacidade Garantida**: Nenhuma senha gerada será armazenada em servidores, garantindo que suas credenciais permaneçam privadas e seguras.
+ Comando para baixar (LINUX && WINDOWS): 
+ 
+```curl -o ElKapiPT-BR.py https://raw.githubusercontent.com/imhellguy/Python3/refs/heads/main/tools/ElKapi/ElKapiPT-BR.py```
 
-# Observação:
-- A Ferramenta é 100% open source e ela roda 100% offline.
+Comando para rodar:
+```python3 ElKapiPT-BR.py```
 
-# :)
+-
+English Version 💫
+
+![image](https://github.com/user-attachments/assets/030e2f4a-f21c-413f-b4fa-2509ba489855)
+
+### El Kapi: Strong Password Generator 🔒✨
+
+El Kapi is a powerful and efficient tool for generating extremely strong and unbreakable passwords. 💪💻
+
+### Key Features 🌟
+
+- **Random Password Generation:** Creates unique passwords.
+- **Diverse Combinations:** Includes uppercase and lowercase letters, numbers, and special characters.
+- **Customization:** Adjust the password length to suit your needs.
+- **Intuitive Interface:** Simple and easy to use, ideal for all users.
+- **High Security:** Passwords with high resistance to attacks, ensuring the protection of your data.
+
+
+Download Command (LINUX && WINDOWS):  
+```curl -o ElKapi.py https://raw.githubusercontent.com/imhellguy/Python3/refs/heads/main/tools/ElKapi/ElKapi.py```
+
+Run Command: ```python3 ElKapi.py```
+
 

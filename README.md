@@ -11,7 +11,7 @@ Esta ferramenta oferece uma solução robusta e segura para criação de senhas 
 - **Senhas Imunes a Wordlists**: Ao contrário das senhas comuns, as senhas geradas não são encontradas em nenhuma wordlist pública ou privada, garantindo uma camada adicional de segurança.
 - **Fácil de Usar**: Interface intuitiva e simples de integrar para desenvolvedores e usuários em busca de segurança extra.
 
-## Por que escolher nossa ferramenta?
+## Por que escolher essa ferramenta?
 
 - **Segurança de Nível Profissional**: Com um algoritmo de geração de senhas avançado, as senhas criadas são não apenas únicas, mas também projetadas para resistir a todos os tipos de ataques.
 - **Privacidade Garantida**: Nenhuma senha gerada será armazenada, garantindo que suas credenciais permaneçam privadas e seguras.

@@ -1,4 +1,4 @@
-# 🔒 Ferramenta Profissional de Geração de Senha
+# 🔒 EL Kapi: Ferramenta Profissional de Geração de Senha
 
 Esta ferramenta oferece uma solução robusta e segura para criação de senhas de alta complexidade, atendendo às mais rigorosas necessidades de proteção digital. 
 

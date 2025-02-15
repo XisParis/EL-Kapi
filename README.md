@@ -12,14 +12,7 @@ El Kapi é uma ferramenta poderosa e eficiente para gerar senhas extremamente fo
 - **Interface Intuitiva:** Simples e fácil de usar, ideal para todos os usuários.
 - **Alta Segurança:** Senhas armazenadas direto no seu dispositivo, totalmente fora de servidores externos.
 
- Comando para baixar (LINUX && WINDOWS): 
  
-```curl -o ElKapiPT-BR.py https://raw.githubusercontent.com/imhellguy/Python3/refs/heads/main/tools/ElKapi/ElKapiPT-BR.py```
-
-Comando para rodar:
-```python3 ElKapiPT-BR.py```
-
--
 English Version 💫
 
 ![image](https://github.com/user-attachments/assets/030e2f4a-f21c-413f-b4fa-2509ba489855)
@@ -30,16 +23,9 @@ El Kapi is a powerful and efficient tool for generating extremely strong and unb
 
 ### Key Features 🌟
 
-- **Random Password Generation:** Creates unique passwords.
-- **Diverse Combinations:** Includes uppercase and lowercase letters, numbers, and special characters.
-- **Customization:** Adjust the password length to suit your needs.
+- **Random Password Generation:** Creates unique passwords that will never be found in private/public word lists.
+- **Diverse Combinations:** Includes secret letters, lowercase letters, numbers and special characters.
+- **Customization:** Adjust the password length according to your needs.
 - **Intuitive Interface:** Simple and easy to use, ideal for all users.
-- **High Security:** Passwords with high resistance to attacks, ensuring the protection of your data.
-
-
-Download Command (LINUX && WINDOWS):  
-```curl -o ElKapi.py https://raw.githubusercontent.com/imhellguy/Python3/refs/heads/main/tools/ElKapi/ElKapi.py```
-
-Run Command: ```python3 ElKapi.py```
-
+- **High Security:** Passwords stored directly on your device, completely outside of external servers.
 

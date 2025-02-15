@@ -2,7 +2,7 @@
 
 Esta ferramenta oferece uma solução robusta e segura para criação de senhas de alta complexidade, atendendo às mais rigorosas necessidades de proteção digital. 
 
-**Desenvolvido em Python 3**, garantindo alta performance e flexibilidade.
+**Desenvolvido em Python 3**
 
 ## Funcionalidades:
 

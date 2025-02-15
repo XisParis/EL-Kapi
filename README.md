@@ -12,8 +12,7 @@
 ## Por que escolher essa ferramenta?
 
 - **Segurança de Nível Profissional**: Com um algoritmo de geração de senhas avançado, as senhas criadas são não apenas únicas, mas também projetadas para resistir a todos os tipos de ataques.
-- **Privacidade Garantida**: Nenhuma senha gerada será armazenada, garantindo que suas credenciais permaneçam privadas e seguras.
-- **Desenvolvida em Python 3**: Aproveite os benefícios da linguagem Python 3, como desempenho otimizado, compatibilidade e facilidade de integração.
+- **Privacidade Garantida**: Nenhuma senha gerada será armazenada em servidores, garantindo que suas credenciais permaneçam privadas e seguras.
 
 # Observação:
 - A Ferramenta é 100% open source e ela roda 100% offline.

@@ -1,7 +1,5 @@
 # 🔒 EL Kapi: Ferramenta Profissional de Geração de Senha
 
-Esta ferramenta oferece uma solução robusta e segura para criação de senhas de alta complexidade, atendendo às mais rigorosas necessidades de proteção digital. 
-
 **Desenvolvido em Python 3**
 
 ## Funcionalidades:
@@ -17,5 +15,8 @@ Esta ferramenta oferece uma solução robusta e segura para criação de senhas 
 - **Privacidade Garantida**: Nenhuma senha gerada será armazenada, garantindo que suas credenciais permaneçam privadas e seguras.
 - **Desenvolvida em Python 3**: Aproveite os benefícios da linguagem Python 3, como desempenho otimizado, compatibilidade e facilidade de integração.
 
+# Observação:
+- A Ferramenta é 100% open source e ela roda 100% offline.
 
 # :)
+
